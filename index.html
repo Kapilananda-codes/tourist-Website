@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Kyoto - Dream Destination</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- 1. Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Kyoto Guide</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#attractions">Attractions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#itinerary">Itinerary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="hero-text">
+            <h1 class="display-3">Explore Kyoto</h1>
+            <p class="lead">The Heart of Ancient Japan</p>
+            <a href="#about" class="btn btn-primary btn-lg">Discover More</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- 3. About Section -->
+        <section id="about" class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h2 class="display-5">A City of Timeless Beauty</h2>
+                        <p>Kyoto, the former Imperial Capital of Japan, is a city that beautifully blends ancient tradition with modern life. With over a thousand temples, stunning gardens, and traditional teahouses, Kyoto offers a unique glimpse into Japan's rich cultural heritage. Walk through serene bamboo groves, spot geishas in the Gion district, and marvel at the golden splendor of Kinkaku-ji.</p>
+                        <p>Whether you are seeking spiritual tranquility, culinary delights, or vibrant festivals, Kyoto captivates every visitor with its elegance and charm.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- Replace with your image -->
+                        <img src="https://cdn.cheapoguides.com/wp-content/uploads/sites/3/2019/01/geisha-kyoto-iStock-576751676-1024x600.jpg" alt="Geisha in Kyoto" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Top Attractions (Cards) -->
+        <section id="attractions" class="py-5 bg-light">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-5">Must-See Attractions</h2>
+                    <p class="lead">Discover the iconic landmarks of Kyoto.</p>
+                </div>
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://th.bing.com/th/id/OIP.e48aaXl-5uW6aNXeFibG8gHaE7?w=269&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="card-img-top" alt="Fushimi Inari Shrine">
+                            <div class="card-body">
+                                <h5 class="card-title">Fushimi Inari Shrine</h5>
+                                <p class="card-text">Famous for its thousands of vibrant red torii gates that wind through a network of trails behind its main buildings.</p>
+                                <a href="#" class="btn btn-outline-danger">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://i2.wp.com/mykyotophoto.com/wp-content/uploads/2016/01/150824_Kyoto-Arashiyama-Bamboo-Grove-810373.jpg?fit=1500%2C1001&ssl=1" class="card-img-top" alt="Arashiyama Bamboo Grove">
+                            <div class="card-body">
+                                <h5 class="card-title">Arashiyama Bamboo Grove</h5>
+                                <p class="card-text">Experience a walk through one of Japan's most photographed sights. The towering bamboo stalks create an otherworldly atmosphere.</p>
+                                <a href="#" class="btn btn-outline-danger">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://c.pxhere.com/photos/e7/9f/architecture_building_garden_Golden_Pavilion_Temple_Japanese_kinkaku_ji_nature_reflection-1048091.jpg!d" class="card-img-top" alt="Kinkaku-ji Temple">
+                            <div class="card-body">
+                                <h5 class="card-title">Kinkaku-ji (Golden Pavilion)</h5>
+                                <p class="card-text">A stunning Zen Buddhist temple whose top two floors are completely covered in gold leaf, set against a beautiful pond.</p>
+                                <a href="#" class="btn btn-outline-danger">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Photo Gallery -->
+        <section id="gallery" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-5">Visual Journey</h2>
+                    <p class="lead">Immerse yourself in the beauty of Kyoto.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 mb-4"><img src="https://cdn1.matadornetwork.com/blogs/1/2023/08/Ryokan-Genhouin-2.jpg" alt="Gallery Image 1" class="img-fluid img-thumbnail gallery-item"></div>
+                    <div class="col-md-4 col-sm-6 mb-4"><img src="https://i.etsystatic.com/18913333/r/il/af2312/5802637826/il_fullxfull.5802637826_nkjz.jpg" alt="Gallery Image 2" class="img-fluid img-thumbnail gallery-item"></div>
+                    <div class="col-md-4 col-sm-6 mb-4"><img src="https://images.blacktomato.com/2012/10/Daigo-ji-is-a-Shingon-Buddhist-temple-in-Fushimi-ku-Kyoto-Japan.jpg?auto=compress%2Cformat&ixlib=php-3.3.1&s=36d4918c4e3c29d8f82b219079d92744" alt="Gallery Image 3" class="img-fluid img-thumbnail gallery-item"></div>
+                    <div class="col-md-4 col-sm-6 mb-4"><img src="https://thumbs.dreamstime.com/b/immerse-yourself-magical-night-scene-kyoto-sparkling-image-iconic-fushimi-inari-shrine-shrine-289511114.jpg" alt="Gallery Image 4" class="img-fluid img-thumbnail gallery-item"></div>
+                    <div class="col-md-4 col-sm-6 mb-4"><img src="https://ds393qgzrxwzn.cloudfront.net/resize/m720x480/cat1/img/images/0/pV9mVudDA3.jpg" alt="Gallery Image 5" class="img-fluid img-thumbnail gallery-item"></div>
+                    <div class="col-md-4 col-sm-6 mb-4"><img src="https://ds393qgzrxwzn.cloudfront.net/resize/m600x500/cat1/img/images/0/tKPXaPPzBU.jpg" alt="Gallery Image 6" class="img-fluid img-thumbnail gallery-item"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Sample Itinerary (Accordion) -->
+        <section id="itinerary" class="py-5 bg-light">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-5">3-Day Sample Itinerary</h2>
+                    <p class="lead">Make the most of your trip with this plan.</p>
+                </div>
+                <div class="accordion col-md-8 mx-auto" id="itineraryAccordion">
+                    <!-- Day 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Day 1: Temples & Shrines
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#itineraryAccordion">
+                            <div class="accordion-body">
+                                <strong>Morning:</strong> Visit the Fushimi Inari Shrine. <br>
+                                <strong>Afternoon:</strong> Explore Kiyomizu-dera Temple and the surrounding Higashiyama District. <br>
+                                <strong>Evening:</strong> Wander through the Gion district, Kyoto's famous geisha district.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Day 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Day 2: Nature & Zen
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#itineraryAccordion">
+                            <div class="accordion-body">
+                                <strong>Morning:</strong> Walk through the Arashiyama Bamboo Grove. <br>
+                                <strong>Afternoon:</strong> Visit Kinkaku-ji (Golden Pavilion) and the nearby Ryoan-ji Temple with its famous rock garden. <br>
+                                <strong>Evening:</strong> Enjoy a relaxing dinner along the Kamo River.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Day 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Day 3: Culture & Food
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#itineraryAccordion">
+                            <div class="accordion-body">
+                                <strong>Morning:</strong> Explore the Nishiki Market for local snacks and delicacies. <br>
+                                <strong>Afternoon:</strong> Participate in a traditional tea ceremony. <br>
+                                <strong>Evening:</strong> Last-minute souvenir shopping at Kyoto Station.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Contact Form -->
+        <section id="contact" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-5">Plan Your Trip</h2>
+                    <p class="lead">Have questions? Send us a message!</p>
+                </div>
+                <form class="col-md-8 mx-auto">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-success btn-lg">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 8. Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-2">© 2023 Your Name - Web Dev Assignment. All Rights Reserved.</p>
+            <div>
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+<style>
+    /* ---- General & Body Styling ---- */
+body {
+    /* Set a fixed padding top to prevent content from being hidden by the fixed navbar */
+    padding-top: 56px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .display-3, .display-5 {
+    /* Use a more elegant font for headings */
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+
+/* ---- Hero Section Styling ---- */
+.hero-section {
+    /* 
+    IMPORTANT: Replace 'https://placehold.co/1920x1080/...' with the path to YOUR hero image.
+    For example: url('../images/kyoto-hero.jpg') 
+    */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://media.gettyimages.com/id/902966276/photo/kyoto-japan-in-spring.jpg?b=1&s=170667a&w=0&k=20&c=RODeywvcF6NtsZlMWLsIOuazWyTnqX_TeWlXFshYFe0=');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Creates a nice parallax effect */
+    height: 100vh; /* Full viewport height */
+
+    /* Flexbox utilities to center the text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 4.5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero-text .lead {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ---- Navbar Styling ---- */
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #ffc107; /* A nice highlight color on hover */
+}
+
+
+/* ---- Attractions (Card) Styling ---- */
+.card {
+    border: none; /* Removes the default card border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Lifts the card up on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+/* ---- Gallery Styling ---- */
+.gallery-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Slightly zooms in on the image */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+
+/* ---- Section Styling ---- */
+section {
+    /* Adds a bit of space between all sections */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+</style>
+</html>
